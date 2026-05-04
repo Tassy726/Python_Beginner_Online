@@ -1,0 +1,65 @@
+レッスン６「モジュール・おみくじアプリ」の練習問題
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【ステップ１】 randomモジュール
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q1）　次のプログラムを実行してみよう
+
+import random
+
+result = random.randint(1, 4)
+print(result)
+
+→ 何回か実行してみよう。どんな数字が出る？
+→ randint(1, 4) の数字を変えたらどうなる？試してみよう
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【ステップ２】 おみくじのプログラム
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q2）　おみくじプログラムを改造してみよう
+
+import random
+
+result = random.randint(1, 4)
+
+if result == 1:
+    print("大吉！！")
+elif result == 2:
+    print("小吉")
+elif result == 3:
+    print("吉")
+else:
+    print("凶...")
+
+→ おみくじの種類を6種類に増やしてみよう
+   （大吉 / 中吉 / 小吉 / 吉 / 末吉 / 凶 / 大凶）
+   ヒント：randint()の範囲とelif の数を変えよう
+
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【ステップ３】 datetimeモジュール
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q3）　次のプログラムを実行してみよう
+
+from datetime import date
+
+today_data = date.today()
+
+print(today_data)
+print(today_data.year)
+print(today_data.month)
+print(today_data.day)
+
+→ それぞれ、何が表示されたか確認しよう
+
+
+
