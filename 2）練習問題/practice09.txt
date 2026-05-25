@@ -14,7 +14,7 @@ def battle_start():
 battle_start()
 battle_start()
 
-→ 何が表示される？　実行前にノートに書いてみよう
+→ 何が表示される？　実行前に考えてみよう
 → battle_start() を3回呼び出したら、どうなる？試してみよう
 
 
